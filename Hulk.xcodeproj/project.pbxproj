@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83569DE527B90F4F00DC3642 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83569DE427B90F4F00DC3642 /* Theme.swift */; };
+		83569DE727B9160500DC3642 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83569DE627B9160500DC3642 /* DailyScrum.swift */; };
+		83569DE927B916AF00DC3642 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83569DE827B916AF00DC3642 /* CardView.swift */; };
+		83569DEB27B9192300DC3642 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83569DEA27B9192300DC3642 /* TrailingIconLabelStyle.swift */; };
+		83569DEF27B91DB300DC3642 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83569DEE27B91DB300DC3642 /* ScrumsView.swift */; };
+		83569DF127B9499700DC3642 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83569DF027B9499700DC3642 /* DetailView.swift */; };
 		8395D86C27B463BF002E1084 /* HulkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8395D86B27B463BF002E1084 /* HulkApp.swift */; };
-		8395D86E27B463BF002E1084 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8395D86D27B463BF002E1084 /* ContentView.swift */; };
+		8395D86E27B463BF002E1084 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8395D86D27B463BF002E1084 /* MeetingView.swift */; };
 		8395D87027B463C1002E1084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8395D86F27B463C1002E1084 /* Assets.xcassets */; };
 		8395D87327B463C1002E1084 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8395D87227B463C1002E1084 /* Preview Assets.xcassets */; };
 		8395D87527B463C1002E1084 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8395D87427B463C1002E1084 /* Persistence.swift */; };
@@ -36,9 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83569DE427B90F4F00DC3642 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		83569DE627B9160500DC3642 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		83569DE827B916AF00DC3642 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		83569DEA27B9192300DC3642 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		83569DEE27B91DB300DC3642 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		83569DF027B9499700DC3642 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		8395D86827B463BF002E1084 /* Hulk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hulk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8395D86B27B463BF002E1084 /* HulkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HulkApp.swift; sourceTree = "<group>"; };
-		8395D86D27B463BF002E1084 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8395D86D27B463BF002E1084 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		8395D86F27B463C1002E1084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8395D87227B463C1002E1084 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8395D87427B463C1002E1084 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -75,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83569DE327B90EC700DC3642 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83569DE427B90F4F00DC3642 /* Theme.swift */,
+				83569DE627B9160500DC3642 /* DailyScrum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8395D85F27B463BF002E1084 = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +119,13 @@
 		8395D86A27B463BF002E1084 /* Hulk */ = {
 			isa = PBXGroup;
 			children = (
+				83569DE327B90EC700DC3642 /* Models */,
 				8395D86B27B463BF002E1084 /* HulkApp.swift */,
-				8395D86D27B463BF002E1084 /* ContentView.swift */,
+				83569DEA27B9192300DC3642 /* TrailingIconLabelStyle.swift */,
+				83569DE827B916AF00DC3642 /* CardView.swift */,
+				8395D86D27B463BF002E1084 /* MeetingView.swift */,
+				83569DEE27B91DB300DC3642 /* ScrumsView.swift */,
+				83569DF027B9499700DC3642 /* DetailView.swift */,
 				8395D86F27B463C1002E1084 /* Assets.xcassets */,
 				8395D87427B463C1002E1084 /* Persistence.swift */,
 				8395D87627B463C1002E1084 /* Hulk.xcdatamodeld */,
@@ -263,9 +289,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83569DE927B916AF00DC3642 /* CardView.swift in Sources */,
+				83569DEF27B91DB300DC3642 /* ScrumsView.swift in Sources */,
 				8395D87527B463C1002E1084 /* Persistence.swift in Sources */,
+				83569DF127B9499700DC3642 /* DetailView.swift in Sources */,
 				8395D87827B463C1002E1084 /* Hulk.xcdatamodeld in Sources */,
-				8395D86E27B463BF002E1084 /* ContentView.swift in Sources */,
+				83569DEB27B9192300DC3642 /* TrailingIconLabelStyle.swift in Sources */,
+				83569DE527B90F4F00DC3642 /* Theme.swift in Sources */,
+				8395D86E27B463BF002E1084 /* MeetingView.swift in Sources */,
+				83569DE727B9160500DC3642 /* DailyScrum.swift in Sources */,
 				8395D86C27B463BF002E1084 /* HulkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
