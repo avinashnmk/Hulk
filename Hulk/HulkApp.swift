@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct HulkApp: App {
-    let persistenceController = PersistenceController.shared
-    
+ 
+    @State private var scrums = DailyScrum.sampleData
     var body: some Scene {
         WindowGroup{
             NavigationView {
-                ScrumsView(scrums: DailyScrum.sampleData)
+                ScrumsView(scrums: $scrums)
             }
             
         }
