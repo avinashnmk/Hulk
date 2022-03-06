@@ -24,6 +24,10 @@
 		835FD47327CAD67B003AFE31 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835FD47227CAD67B003AFE31 /* MeetingFooterView.swift */; };
 		835FD47527CBC035003AFE31 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835FD47427CBC035003AFE31 /* History.swift */; };
 		835FD47727CCD10E003AFE31 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835FD47627CCD10E003AFE31 /* ScrumStore.swift */; };
+		837C3FCC27CD51A000E975B3 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C3FCB27CD51A000E975B3 /* ErrorWrapper.swift */; };
+		837C3FCE27CD524800E975B3 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C3FCD27CD524800E975B3 /* ErrorView.swift */; };
+		838A87E727D55335000A53AA /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838A87E627D55335000A53AA /* MeetingTimerView.swift */; };
+		838A87E927D554B8000A53AA /* SpeakerArch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838A87E827D554B8000A53AA /* SpeakerArch.swift */; };
 		8395D86C27B463BF002E1084 /* HulkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8395D86B27B463BF002E1084 /* HulkApp.swift */; };
 		8395D86E27B463BF002E1084 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8395D86D27B463BF002E1084 /* MeetingView.swift */; };
 		8395D87027B463C1002E1084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8395D86F27B463C1002E1084 /* Assets.xcassets */; };
@@ -70,6 +74,10 @@
 		835FD47227CAD67B003AFE31 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		835FD47427CBC035003AFE31 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		835FD47627CCD10E003AFE31 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		837C3FCB27CD51A000E975B3 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		837C3FCD27CD524800E975B3 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		838A87E627D55335000A53AA /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		838A87E827D554B8000A53AA /* SpeakerArch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArch.swift; sourceTree = "<group>"; };
 		8395D86827B463BF002E1084 /* Hulk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hulk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8395D86B27B463BF002E1084 /* HulkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HulkApp.swift; sourceTree = "<group>"; };
 		8395D86D27B463BF002E1084 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -146,9 +154,13 @@
 				83569DE327B90EC700DC3642 /* Models */,
 				8395D86B27B463BF002E1084 /* HulkApp.swift */,
 				835FD47627CCD10E003AFE31 /* ScrumStore.swift */,
+				837C3FCB27CD51A000E975B3 /* ErrorWrapper.swift */,
+				837C3FCD27CD524800E975B3 /* ErrorView.swift */,
 				83569DEA27B9192300DC3642 /* TrailingIconLabelStyle.swift */,
 				83569DE827B916AF00DC3642 /* CardView.swift */,
 				8395D86D27B463BF002E1084 /* MeetingView.swift */,
+				838A87E827D554B8000A53AA /* SpeakerArch.swift */,
+				838A87E627D55335000A53AA /* MeetingTimerView.swift */,
 				835FD47227CAD67B003AFE31 /* MeetingFooterView.swift */,
 				835FD46827C9862F003AFE31 /* MeetingHeaderView.swift */,
 				83569DEE27B91DB300DC3642 /* ScrumsView.swift */,
@@ -328,6 +340,7 @@
 				835FD47727CCD10E003AFE31 /* ScrumStore.swift in Sources */,
 				835FD47527CBC035003AFE31 /* History.swift in Sources */,
 				8395D87527B463C1002E1084 /* Persistence.swift in Sources */,
+				838A87E927D554B8000A53AA /* SpeakerArch.swift in Sources */,
 				8356371F27C2DEA00058EE93 /* ThemePickerView.swift in Sources */,
 				83569DF127B9499700DC3642 /* DetailView.swift in Sources */,
 				835FD47127CAD383003AFE31 /* AVPlayer+Ding.swift in Sources */,
@@ -337,12 +350,15 @@
 				835FD46927C9862F003AFE31 /* MeetingHeaderView.swift in Sources */,
 				835FD46B27CAD143003AFE31 /* ScrumProgressViewStyle.swift in Sources */,
 				835FD47327CAD67B003AFE31 /* MeetingFooterView.swift in Sources */,
+				838A87E727D55335000A53AA /* MeetingTimerView.swift in Sources */,
 				83569DEB27B9192300DC3642 /* TrailingIconLabelStyle.swift in Sources */,
+				837C3FCC27CD51A000E975B3 /* ErrorWrapper.swift in Sources */,
 				83569DE527B90F4F00DC3642 /* Theme.swift in Sources */,
 				8395D86E27B463BF002E1084 /* MeetingView.swift in Sources */,
 				8323197327BC4C93006E1DC3 /* DetailEditView.swift in Sources */,
 				83569DE727B9160500DC3642 /* DailyScrum.swift in Sources */,
 				8395D86C27B463BF002E1084 /* HulkApp.swift in Sources */,
+				837C3FCE27CD524800E975B3 /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
